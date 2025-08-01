@@ -7,6 +7,8 @@
 body {
   background-color: #efefef;
 }
+
+/* ----------------------- Navigation Bar -----------------  */
 nav {
   display: flex;
   align-items: center;
@@ -73,29 +75,20 @@ nav {
   top: 0;
   right: 0;
 }
+
+/* -------------------------- container -----------------  */
 .container {
   display: flex;
   justify-content: space-between;
   padding: 13px 5%;
 }
+
+/* -------------------------- Left Sidebar -----------------  */
 .left-sidebar {
   flex-basis: 25%;
   position: sticky;
   top: 70px;
   align-self: flex-start;
-}
-.right-sidebar {
-  flex-basis: 25%;
-  position: sticky;
-  top: 70px;
-  align-self: flex-start;
-  background: #fff;
-  padding: 20px;
-  border-radius: 4px;
-  color: #626262;
-}
-.main-content {
-  flex-basis: 47%;
 }
 .imp-links a,
 .shortcut-links a {
@@ -126,6 +119,23 @@ nav {
   color: #626262;
   font-weight: 500;
 }
+
+/* -------------------------- Main Content -----------------  */
+.main-content {
+  flex-basis: 47%;
+}
+
+/* -------------------------- Right Sidebar -----------------  */
+.right-sidebar {
+  flex-basis: 25%;
+  position: sticky;
+  top: 70px;
+  align-self: flex-start;
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  color: #626262;
+}
 .sidebar-title {
   display: flex;
   align-items: center;
@@ -141,7 +151,6 @@ nav {
   color: #1876f2;
   font-size: 12px;
 }
-
 .event {
   display: flex;
   font-size: 14px;
